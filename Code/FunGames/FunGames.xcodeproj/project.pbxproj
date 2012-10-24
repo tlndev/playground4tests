@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD08B13615B626D500D249B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B13515B626D500D249B7 /* UIKit.framework */; };
+		BD08B13815B626D500D249B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B13715B626D500D249B7 /* Foundation.framework */; };
+		BD08B13A15B626D500D249B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B13915B626D500D249B7 /* CoreGraphics.framework */; };
+		BD08B14015B626D500D249B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD08B13E15B626D500D249B7 /* InfoPlist.strings */; };
+		BD08B14215B626D500D249B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B14115B626D500D249B7 /* main.m */; };
+		BD08B14615B626D500D249B7 /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B14515B626D500D249B7 /* PGAppDelegate.m */; };
+		BD08B14915B626D500D249B7 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B14815B626D500D249B7 /* PGViewController.m */; };
+		BD08B14C15B626D500D249B7 /* PGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD08B14A15B626D500D249B7 /* PGViewController.xib */; };
+		BD08B15D15B627A700D249B7 /* PGToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B15B15B627A700D249B7 /* PGToolbarViewController.m */; };
+		BD08B15E15B627A700D249B7 /* PGToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD08B15C15B627A700D249B7 /* PGToolbarViewController.xib */; };
+		BD08B16315B6293300D249B7 /* PGStartingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B16115B6293300D249B7 /* PGStartingViewController.m */; };
+		BD08B16415B6293300D249B7 /* PGStartingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD08B16215B6293300D249B7 /* PGStartingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD08B13115B626D500D249B7 /* FunGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B13515B626D500D249B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD08B13715B626D500D249B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD08B13915B626D500D249B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD08B13D15B626D500D249B7 /* FunGames-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunGames-Info.plist"; sourceTree = "<group>"; };
+		BD08B13F15B626D500D249B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD08B14115B626D500D249B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD08B14315B626D500D249B7 /* FunGames-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunGames-Prefix.pch"; sourceTree = "<group>"; };
+		BD08B14415B626D500D249B7 /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		BD08B14515B626D500D249B7 /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		BD08B14715B626D500D249B7 /* PGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewController.h; sourceTree = "<group>"; };
+		BD08B14815B626D500D249B7 /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
+		BD08B14B15B626D500D249B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController.xib; sourceTree = "<group>"; };
+		BD08B15A15B627A700D249B7 /* PGToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGToolbarViewController.h; sourceTree = "<group>"; };
+		BD08B15B15B627A700D249B7 /* PGToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGToolbarViewController.m; sourceTree = "<group>"; };
+		BD08B15C15B627A700D249B7 /* PGToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGToolbarViewController.xib; sourceTree = "<group>"; };
+		BD08B16015B6293300D249B7 /* PGStartingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGStartingViewController.h; sourceTree = "<group>"; };
+		BD08B16115B6293300D249B7 /* PGStartingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGStartingViewController.m; sourceTree = "<group>"; };
+		BD08B16215B6293300D249B7 /* PGStartingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGStartingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD08B12E15B626D500D249B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B13615B626D500D249B7 /* UIKit.framework in Frameworks */,
+				BD08B13815B626D500D249B7 /* Foundation.framework in Frameworks */,
+				BD08B13A15B626D500D249B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD08B12615B626D500D249B7 = {
+			isa = PBXGroup;
+			children = (
+				BD08B13B15B626D500D249B7 /* FunGames */,
+				BD08B13415B626D500D249B7 /* Frameworks */,
+				BD08B13215B626D500D249B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD08B13215B626D500D249B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B13115B626D500D249B7 /* FunGames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD08B13415B626D500D249B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B13515B626D500D249B7 /* UIKit.framework */,
+				BD08B13715B626D500D249B7 /* Foundation.framework */,
+				BD08B13915B626D500D249B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD08B13B15B626D500D249B7 /* FunGames */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B15F15B6291900D249B7 /* Start Screen */,
+				BD08B15915B6278200D249B7 /* Tool bar View Controller */,
+				BD08B15715B6275500D249B7 /* AppDelegate */,
+				BD08B15815B6276500D249B7 /* Main View Controller */,
+				BD08B13C15B626D500D249B7 /* Supporting Files */,
+			);
+			path = FunGames;
+			sourceTree = "<group>";
+		};
+		BD08B13C15B626D500D249B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B13D15B626D500D249B7 /* FunGames-Info.plist */,
+				BD08B13E15B626D500D249B7 /* InfoPlist.strings */,
+				BD08B14115B626D500D249B7 /* main.m */,
+				BD08B14315B626D500D249B7 /* FunGames-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD08B15715B6275500D249B7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B14415B626D500D249B7 /* PGAppDelegate.h */,
+				BD08B14515B626D500D249B7 /* PGAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BD08B15815B6276500D249B7 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B14715B626D500D249B7 /* PGViewController.h */,
+				BD08B14815B626D500D249B7 /* PGViewController.m */,
+				BD08B14A15B626D500D249B7 /* PGViewController.xib */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		BD08B15915B6278200D249B7 /* Tool bar View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B15A15B627A700D249B7 /* PGToolbarViewController.h */,
+				BD08B15B15B627A700D249B7 /* PGToolbarViewController.m */,
+				BD08B15C15B627A700D249B7 /* PGToolbarViewController.xib */,
+			);
+			name = "Tool bar View Controller";
+			sourceTree = "<group>";
+		};
+		BD08B15F15B6291900D249B7 /* Start Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B16015B6293300D249B7 /* PGStartingViewController.h */,
+				BD08B16115B6293300D249B7 /* PGStartingViewController.m */,
+				BD08B16215B6293300D249B7 /* PGStartingViewController.xib */,
+			);
+			name = "Start Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD08B13015B626D500D249B7 /* FunGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD08B14F15B626D500D249B7 /* Build configuration list for PBXNativeTarget "FunGames" */;
+			buildPhases = (
+				BD08B12D15B626D500D249B7 /* Sources */,
+				BD08B12E15B626D500D249B7 /* Frameworks */,
+				BD08B12F15B626D500D249B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunGames;
+			productName = FunGames;
+			productReference = BD08B13115B626D500D249B7 /* FunGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD08B12815B626D500D249B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BD08B12B15B626D500D249B7 /* Build configuration list for PBXProject "FunGames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD08B12615B626D500D249B7;
+			productRefGroup = BD08B13215B626D500D249B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD08B13015B626D500D249B7 /* FunGames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD08B12F15B626D500D249B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B14015B626D500D249B7 /* InfoPlist.strings in Resources */,
+				BD08B14C15B626D500D249B7 /* PGViewController.xib in Resources */,
+				BD08B15E15B627A700D249B7 /* PGToolbarViewController.xib in Resources */,
+				BD08B16415B6293300D249B7 /* PGStartingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD08B12D15B626D500D249B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B14215B626D500D249B7 /* main.m in Sources */,
+				BD08B14615B626D500D249B7 /* PGAppDelegate.m in Sources */,
+				BD08B14915B626D500D249B7 /* PGViewController.m in Sources */,
+				BD08B15D15B627A700D249B7 /* PGToolbarViewController.m in Sources */,
+				BD08B16315B6293300D249B7 /* PGStartingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD08B13E15B626D500D249B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08B13F15B626D500D249B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD08B14A15B626D500D249B7 /* PGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08B14B15B626D500D249B7 /* en */,
+			);
+			name = PGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD08B14D15B626D500D249B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD08B14E15B626D500D249B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD08B15015B626D500D249B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunGames/FunGames-Prefix.pch";
+				INFOPLIST_FILE = "FunGames/FunGames-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD08B15115B626D500D249B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunGames/FunGames-Prefix.pch";
+				INFOPLIST_FILE = "FunGames/FunGames-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD08B12B15B626D500D249B7 /* Build configuration list for PBXProject "FunGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08B14D15B626D500D249B7 /* Debug */,
+				BD08B14E15B626D500D249B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD08B14F15B626D500D249B7 /* Build configuration list for PBXNativeTarget "FunGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08B15015B626D500D249B7 /* Debug */,
+				BD08B15115B626D500D249B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD08B12815B626D500D249B7 /* Project object */;
+}

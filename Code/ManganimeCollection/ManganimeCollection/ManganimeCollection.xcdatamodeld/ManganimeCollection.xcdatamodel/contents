@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MACCategory" representedClassName="MACCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teaser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="series" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MACSerie" inverseName="category" inverseEntity="MACSerie" syncable="YES"/>
+    </entity>
+    <entity name="MACPerson" representedClassName="MACPerson" syncable="YES">
+        <attribute name="birthdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MACSerie" representedClassName="MACSerie">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="averageRating" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="doesDramaExist" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="episodes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="MACCategory" inverseName="series" inverseEntity="MACCategory" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="MACUser" representedClassName="MACUser" parentEntity="MACPerson" syncable="YES">
+        <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MACSerie" positionX="-5067" positionY="-4824" width="128" height="210"/>
+        <element name="MACCategory" positionX="-5078" positionY="-4467" width="128" height="105"/>
+        <element name="MACPerson" positionX="-5337" positionY="-4779" width="128" height="105"/>
+        <element name="MACUser" positionX="-5337" positionY="-4599" width="128" height="105"/>
+    </elements>
+</model>

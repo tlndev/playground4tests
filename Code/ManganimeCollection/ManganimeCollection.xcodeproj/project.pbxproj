@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD924E831637825D00D0605E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E821637825D00D0605E /* UIKit.framework */; };
+		BD924E851637825D00D0605E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E841637825D00D0605E /* Foundation.framework */; };
+		BD924E871637825D00D0605E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E861637825D00D0605E /* CoreGraphics.framework */; };
+		BD924E891637825D00D0605E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E881637825D00D0605E /* CoreData.framework */; };
+		BD924E8F1637825D00D0605E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD924E8D1637825D00D0605E /* InfoPlist.strings */; };
+		BD924E911637825D00D0605E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924E901637825D00D0605E /* main.m */; };
+		BD924E951637825D00D0605E /* MACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924E941637825D00D0605E /* MACAppDelegate.m */; };
+		BD924E971637825D00D0605E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD924E961637825D00D0605E /* Default.png */; };
+		BD924E991637825D00D0605E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD924E981637825D00D0605E /* Default@2x.png */; };
+		BD924E9B1637825D00D0605E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD924E9A1637825D00D0605E /* Default-568h@2x.png */; };
+		BD924E9E1637825D00D0605E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD924E9C1637825D00D0605E /* MainStoryboard_iPhone.storyboard */; };
+		BD924EA11637825D00D0605E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD924E9F1637825D00D0605E /* MainStoryboard_iPad.storyboard */; };
+		BD924EA41637825E00D0605E /* ManganimeCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD924EA21637825E00D0605E /* ManganimeCollection.xcdatamodeld */; };
+		BD924EA71637825E00D0605E /* MACMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EA61637825E00D0605E /* MACMasterViewController.m */; };
+		BD924EAA1637825E00D0605E /* MACDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EA91637825E00D0605E /* MACDetailViewController.m */; };
+		BD924EB21637825E00D0605E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924EB11637825E00D0605E /* SenTestingKit.framework */; };
+		BD924EB31637825E00D0605E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E821637825D00D0605E /* UIKit.framework */; };
+		BD924EB41637825E00D0605E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E841637825D00D0605E /* Foundation.framework */; };
+		BD924EB51637825E00D0605E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD924E881637825D00D0605E /* CoreData.framework */; };
+		BD924EBD1637825E00D0605E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD924EBB1637825E00D0605E /* InfoPlist.strings */; };
+		BD924EC01637825E00D0605E /* ManganimeCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EBF1637825E00D0605E /* ManganimeCollectionTests.m */; };
+		BD924ED91637874400D0605E /* MACPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924ED81637874400D0605E /* MACPerson.m */; };
+		BD924EDD1637878400D0605E /* MACCategory+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EDC1637878400D0605E /* MACCategory+Type.m */; };
+		BD924EE11637887C00D0605E /* MACCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EE01637887C00D0605E /* MACCategory.m */; };
+		BD924EE4163788C600D0605E /* MACSerie+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EE3163788C600D0605E /* MACSerie+Type.m */; };
+		BD924EE716378B7E00D0605E /* MACSerie.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EE616378B7E00D0605E /* MACSerie.m */; };
+		BD924EEA16378BF400D0605E /* MACUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD924EE916378BF400D0605E /* MACUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD924EB61637825E00D0605E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD924E751637825D00D0605E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD924E7D1637825D00D0605E;
+			remoteInfo = ManganimeCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD924E7E1637825D00D0605E /* ManganimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManganimeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD924E821637825D00D0605E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD924E841637825D00D0605E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD924E861637825D00D0605E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD924E881637825D00D0605E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD924E8C1637825D00D0605E /* ManganimeCollection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManganimeCollection-Info.plist"; sourceTree = "<group>"; };
+		BD924E8E1637825D00D0605E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD924E901637825D00D0605E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD924E921637825D00D0605E /* ManganimeCollection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManganimeCollection-Prefix.pch"; sourceTree = "<group>"; };
+		BD924E931637825D00D0605E /* MACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACAppDelegate.h; sourceTree = "<group>"; };
+		BD924E941637825D00D0605E /* MACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MACAppDelegate.m; sourceTree = "<group>"; };
+		BD924E961637825D00D0605E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD924E981637825D00D0605E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD924E9A1637825D00D0605E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD924E9D1637825D00D0605E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BD924EA01637825D00D0605E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BD924EA31637825E00D0605E /* ManganimeCollection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManganimeCollection.xcdatamodel; sourceTree = "<group>"; };
+		BD924EA51637825E00D0605E /* MACMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACMasterViewController.h; sourceTree = "<group>"; };
+		BD924EA61637825E00D0605E /* MACMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MACMasterViewController.m; sourceTree = "<group>"; };
+		BD924EA81637825E00D0605E /* MACDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACDetailViewController.h; sourceTree = "<group>"; };
+		BD924EA91637825E00D0605E /* MACDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MACDetailViewController.m; sourceTree = "<group>"; };
+		BD924EB01637825E00D0605E /* ManganimeCollectionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManganimeCollectionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD924EB11637825E00D0605E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD924EBA1637825E00D0605E /* ManganimeCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManganimeCollectionTests-Info.plist"; sourceTree = "<group>"; };
+		BD924EBC1637825E00D0605E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD924EBE1637825E00D0605E /* ManganimeCollectionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManganimeCollectionTests.h; sourceTree = "<group>"; };
+		BD924EBF1637825E00D0605E /* ManganimeCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManganimeCollectionTests.m; sourceTree = "<group>"; };
+		BD924ED71637874400D0605E /* MACPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACPerson.h; sourceTree = "<group>"; };
+		BD924ED81637874400D0605E /* MACPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACPerson.m; sourceTree = "<group>"; };
+		BD924EDB1637878400D0605E /* MACCategory+Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MACCategory+Type.h"; path = "ManganimeCollection/MACCategory+Type.h"; sourceTree = "<group>"; };
+		BD924EDC1637878400D0605E /* MACCategory+Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MACCategory+Type.m"; path = "ManganimeCollection/MACCategory+Type.m"; sourceTree = "<group>"; };
+		BD924EDF1637887C00D0605E /* MACCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACCategory.h; sourceTree = "<group>"; };
+		BD924EE01637887C00D0605E /* MACCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACCategory.m; sourceTree = "<group>"; };
+		BD924EE2163788C600D0605E /* MACSerie+Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MACSerie+Type.h"; sourceTree = "<group>"; };
+		BD924EE3163788C600D0605E /* MACSerie+Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MACSerie+Type.m"; sourceTree = "<group>"; };
+		BD924EE516378B7D00D0605E /* MACSerie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACSerie.h; sourceTree = "<group>"; };
+		BD924EE616378B7E00D0605E /* MACSerie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACSerie.m; sourceTree = "<group>"; };
+		BD924EE816378BF400D0605E /* MACUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACUser.h; sourceTree = "<group>"; };
+		BD924EE916378BF400D0605E /* MACUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD924E7B1637825D00D0605E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924E831637825D00D0605E /* UIKit.framework in Frameworks */,
+				BD924E851637825D00D0605E /* Foundation.framework in Frameworks */,
+				BD924E871637825D00D0605E /* CoreGraphics.framework in Frameworks */,
+				BD924E891637825D00D0605E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD924EAC1637825E00D0605E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924EB21637825E00D0605E /* SenTestingKit.framework in Frameworks */,
+				BD924EB31637825E00D0605E /* UIKit.framework in Frameworks */,
+				BD924EB41637825E00D0605E /* Foundation.framework in Frameworks */,
+				BD924EB51637825E00D0605E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD924E731637825D00D0605E = {
+			isa = PBXGroup;
+			children = (
+				BD924E8A1637825D00D0605E /* ManganimeCollection */,
+				BD924EB81637825E00D0605E /* ManganimeCollectionTests */,
+				BD924E811637825D00D0605E /* Frameworks */,
+				BD924E7F1637825D00D0605E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD924E7F1637825D00D0605E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD924E7E1637825D00D0605E /* ManganimeCollection.app */,
+				BD924EB01637825E00D0605E /* ManganimeCollectionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD924E811637825D00D0605E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD924E821637825D00D0605E /* UIKit.framework */,
+				BD924E841637825D00D0605E /* Foundation.framework */,
+				BD924E861637825D00D0605E /* CoreGraphics.framework */,
+				BD924E881637825D00D0605E /* CoreData.framework */,
+				BD924EB11637825E00D0605E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD924E8A1637825D00D0605E /* ManganimeCollection */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EDA1637874C00D0605E /* Common */,
+				BD924EC91637828C00D0605E /* Model */,
+				BD924ECB1637829800D0605E /* Views */,
+				BD924EA51637825E00D0605E /* MACMasterViewController.h */,
+				BD924EA61637825E00D0605E /* MACMasterViewController.m */,
+				BD924EA81637825E00D0605E /* MACDetailViewController.h */,
+				BD924EA91637825E00D0605E /* MACDetailViewController.m */,
+				BD924ECC163782CE00D0605E /* Lifecycle */,
+				BD924E8B1637825D00D0605E /* Supporting Files */,
+			);
+			path = ManganimeCollection;
+			sourceTree = "<group>";
+		};
+		BD924E8B1637825D00D0605E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD924E8C1637825D00D0605E /* ManganimeCollection-Info.plist */,
+				BD924E8D1637825D00D0605E /* InfoPlist.strings */,
+				BD924E901637825D00D0605E /* main.m */,
+				BD924E921637825D00D0605E /* ManganimeCollection-Prefix.pch */,
+				BD924E961637825D00D0605E /* Default.png */,
+				BD924E981637825D00D0605E /* Default@2x.png */,
+				BD924E9A1637825D00D0605E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD924EB81637825E00D0605E /* ManganimeCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EBE1637825E00D0605E /* ManganimeCollectionTests.h */,
+				BD924EBF1637825E00D0605E /* ManganimeCollectionTests.m */,
+				BD924EB91637825E00D0605E /* Supporting Files */,
+			);
+			path = ManganimeCollectionTests;
+			sourceTree = "<group>";
+		};
+		BD924EB91637825E00D0605E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EBA1637825E00D0605E /* ManganimeCollectionTests-Info.plist */,
+				BD924EBB1637825E00D0605E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD924EC91637828C00D0605E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EDE163787CC00D0605E /* Extensions */,
+				BD924EA21637825E00D0605E /* ManganimeCollection.xcdatamodeld */,
+				BD924ECA1637829100D0605E /* Generated */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BD924ECA1637829100D0605E /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EE816378BF400D0605E /* MACUser.h */,
+				BD924EE916378BF400D0605E /* MACUser.m */,
+				BD924EE516378B7D00D0605E /* MACSerie.h */,
+				BD924EE616378B7E00D0605E /* MACSerie.m */,
+				BD924EDF1637887C00D0605E /* MACCategory.h */,
+				BD924EE01637887C00D0605E /* MACCategory.m */,
+				BD924ED71637874400D0605E /* MACPerson.h */,
+				BD924ED81637874400D0605E /* MACPerson.m */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		BD924ECB1637829800D0605E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD924ECD163782E200D0605E /* Storyboards */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BD924ECC163782CE00D0605E /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				BD924E931637825D00D0605E /* MACAppDelegate.h */,
+				BD924E941637825D00D0605E /* MACAppDelegate.m */,
+			);
+			name = Lifecycle;
+			sourceTree = "<group>";
+		};
+		BD924ECD163782E200D0605E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD924E9C1637825D00D0605E /* MainStoryboard_iPhone.storyboard */,
+				BD924E9F1637825D00D0605E /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD924EDA1637874C00D0605E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BD924EDE163787CC00D0605E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD924EDB1637878400D0605E /* MACCategory+Type.h */,
+				BD924EDC1637878400D0605E /* MACCategory+Type.m */,
+				BD924EE2163788C600D0605E /* MACSerie+Type.h */,
+				BD924EE3163788C600D0605E /* MACSerie+Type.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD924E7D1637825D00D0605E /* ManganimeCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD924EC31637825E00D0605E /* Build configuration list for PBXNativeTarget "ManganimeCollection" */;
+			buildPhases = (
+				BD924E7A1637825D00D0605E /* Sources */,
+				BD924E7B1637825D00D0605E /* Frameworks */,
+				BD924E7C1637825D00D0605E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManganimeCollection;
+			productName = ManganimeCollection;
+			productReference = BD924E7E1637825D00D0605E /* ManganimeCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD924EAF1637825E00D0605E /* ManganimeCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD924EC61637825E00D0605E /* Build configuration list for PBXNativeTarget "ManganimeCollectionTests" */;
+			buildPhases = (
+				BD924EAB1637825E00D0605E /* Sources */,
+				BD924EAC1637825E00D0605E /* Frameworks */,
+				BD924EAD1637825E00D0605E /* Resources */,
+				BD924EAE1637825E00D0605E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD924EB71637825E00D0605E /* PBXTargetDependency */,
+			);
+			name = ManganimeCollectionTests;
+			productName = ManganimeCollectionTests;
+			productReference = BD924EB01637825E00D0605E /* ManganimeCollectionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD924E751637825D00D0605E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Linh Nguyen";
+			};
+			buildConfigurationList = BD924E781637825D00D0605E /* Build configuration list for PBXProject "ManganimeCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD924E731637825D00D0605E;
+			productRefGroup = BD924E7F1637825D00D0605E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD924E7D1637825D00D0605E /* ManganimeCollection */,
+				BD924EAF1637825E00D0605E /* ManganimeCollectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD924E7C1637825D00D0605E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924E8F1637825D00D0605E /* InfoPlist.strings in Resources */,
+				BD924E971637825D00D0605E /* Default.png in Resources */,
+				BD924E991637825D00D0605E /* Default@2x.png in Resources */,
+				BD924E9B1637825D00D0605E /* Default-568h@2x.png in Resources */,
+				BD924E9E1637825D00D0605E /* MainStoryboard_iPhone.storyboard in Resources */,
+				BD924EA11637825D00D0605E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD924EAD1637825E00D0605E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924EBD1637825E00D0605E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD924EAE1637825E00D0605E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD924E7A1637825D00D0605E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924E911637825D00D0605E /* main.m in Sources */,
+				BD924E951637825D00D0605E /* MACAppDelegate.m in Sources */,
+				BD924EA41637825E00D0605E /* ManganimeCollection.xcdatamodeld in Sources */,
+				BD924EA71637825E00D0605E /* MACMasterViewController.m in Sources */,
+				BD924EAA1637825E00D0605E /* MACDetailViewController.m in Sources */,
+				BD924ED91637874400D0605E /* MACPerson.m in Sources */,
+				BD924EDD1637878400D0605E /* MACCategory+Type.m in Sources */,
+				BD924EE11637887C00D0605E /* MACCategory.m in Sources */,
+				BD924EE4163788C600D0605E /* MACSerie+Type.m in Sources */,
+				BD924EE716378B7E00D0605E /* MACSerie.m in Sources */,
+				BD924EEA16378BF400D0605E /* MACUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD924EAB1637825E00D0605E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924EC01637825E00D0605E /* ManganimeCollectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD924EB71637825E00D0605E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD924E7D1637825D00D0605E /* ManganimeCollection */;
+			targetProxy = BD924EB61637825E00D0605E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD924E8D1637825D00D0605E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD924E8E1637825D00D0605E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD924E9C1637825D00D0605E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD924E9D1637825D00D0605E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = ManganimeCollection;
+			sourceTree = "<group>";
+		};
+		BD924E9F1637825D00D0605E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD924EA01637825D00D0605E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = ManganimeCollection;
+			sourceTree = "<group>";
+		};
+		BD924EBB1637825E00D0605E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD924EBC1637825E00D0605E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD924EC11637825E00D0605E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD924EC21637825E00D0605E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD924EC41637825E00D0605E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManganimeCollection/ManganimeCollection-Prefix.pch";
+				INFOPLIST_FILE = "ManganimeCollection/ManganimeCollection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD924EC51637825E00D0605E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManganimeCollection/ManganimeCollection-Prefix.pch";
+				INFOPLIST_FILE = "ManganimeCollection/ManganimeCollection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD924EC71637825E00D0605E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManganimeCollection.app/ManganimeCollection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManganimeCollection/ManganimeCollection-Prefix.pch";
+				INFOPLIST_FILE = "ManganimeCollectionTests/ManganimeCollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD924EC81637825E00D0605E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManganimeCollection.app/ManganimeCollection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManganimeCollection/ManganimeCollection-Prefix.pch";
+				INFOPLIST_FILE = "ManganimeCollectionTests/ManganimeCollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD924E781637825D00D0605E /* Build configuration list for PBXProject "ManganimeCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD924EC11637825E00D0605E /* Debug */,
+				BD924EC21637825E00D0605E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD924EC31637825E00D0605E /* Build configuration list for PBXNativeTarget "ManganimeCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD924EC41637825E00D0605E /* Debug */,
+				BD924EC51637825E00D0605E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD924EC61637825E00D0605E /* Build configuration list for PBXNativeTarget "ManganimeCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD924EC71637825E00D0605E /* Debug */,
+				BD924EC81637825E00D0605E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD924EA21637825E00D0605E /* ManganimeCollection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD924EA31637825E00D0605E /* ManganimeCollection.xcdatamodel */,
+			);
+			currentVersion = BD924EA31637825E00D0605E /* ManganimeCollection.xcdatamodel */;
+			name = ManganimeCollection.xcdatamodeld;
+			path = ManganimeCollection/ManganimeCollection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD924E751637825D00D0605E /* Project object */;
+}

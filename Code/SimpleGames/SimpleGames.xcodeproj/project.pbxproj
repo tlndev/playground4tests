@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD08B10215B6239100D249B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B10115B6239100D249B7 /* UIKit.framework */; };
+		BD08B10415B6239100D249B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B10315B6239100D249B7 /* Foundation.framework */; };
+		BD08B10615B6239100D249B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B10515B6239100D249B7 /* CoreGraphics.framework */; };
+		BD08B10815B6239100D249B7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B10715B6239100D249B7 /* GLKit.framework */; };
+		BD08B10A15B6239100D249B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B10915B6239100D249B7 /* OpenGLES.framework */; };
+		BD08B11015B6239100D249B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD08B10E15B6239100D249B7 /* InfoPlist.strings */; };
+		BD08B11215B6239100D249B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B11115B6239100D249B7 /* main.m */; };
+		BD08B11615B6239100D249B7 /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B11515B6239100D249B7 /* PGAppDelegate.m */; };
+		BD08B11815B6239100D249B7 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BD08B11715B6239100D249B7 /* Shader.fsh */; };
+		BD08B11A15B6239100D249B7 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BD08B11915B6239100D249B7 /* Shader.vsh */; };
+		BD08B11D15B6239100D249B7 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08B11C15B6239100D249B7 /* PGViewController.m */; };
+		BD08B12015B6239100D249B7 /* PGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD08B11E15B6239100D249B7 /* PGViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD08B0FD15B6239100D249B7 /* SimpleGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B10115B6239100D249B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD08B10315B6239100D249B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD08B10515B6239100D249B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD08B10715B6239100D249B7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		BD08B10915B6239100D249B7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BD08B10D15B6239100D249B7 /* SimpleGames-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGames-Info.plist"; sourceTree = "<group>"; };
+		BD08B10F15B6239100D249B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD08B11115B6239100D249B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD08B11315B6239100D249B7 /* SimpleGames-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleGames-Prefix.pch"; sourceTree = "<group>"; };
+		BD08B11415B6239100D249B7 /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		BD08B11515B6239100D249B7 /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		BD08B11715B6239100D249B7 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		BD08B11915B6239100D249B7 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		BD08B11B15B6239100D249B7 /* PGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewController.h; sourceTree = "<group>"; };
+		BD08B11C15B6239100D249B7 /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
+		BD08B11F15B6239100D249B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD08B0FA15B6239100D249B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B10215B6239100D249B7 /* UIKit.framework in Frameworks */,
+				BD08B10415B6239100D249B7 /* Foundation.framework in Frameworks */,
+				BD08B10615B6239100D249B7 /* CoreGraphics.framework in Frameworks */,
+				BD08B10815B6239100D249B7 /* GLKit.framework in Frameworks */,
+				BD08B10A15B6239100D249B7 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD08B0F215B6239100D249B7 = {
+			isa = PBXGroup;
+			children = (
+				BD08B10B15B6239100D249B7 /* SimpleGames */,
+				BD08B10015B6239100D249B7 /* Frameworks */,
+				BD08B0FE15B6239100D249B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD08B0FE15B6239100D249B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B0FD15B6239100D249B7 /* SimpleGames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD08B10015B6239100D249B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B10115B6239100D249B7 /* UIKit.framework */,
+				BD08B10315B6239100D249B7 /* Foundation.framework */,
+				BD08B10515B6239100D249B7 /* CoreGraphics.framework */,
+				BD08B10715B6239100D249B7 /* GLKit.framework */,
+				BD08B10915B6239100D249B7 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD08B10B15B6239100D249B7 /* SimpleGames */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B11415B6239100D249B7 /* PGAppDelegate.h */,
+				BD08B11515B6239100D249B7 /* PGAppDelegate.m */,
+				BD08B11715B6239100D249B7 /* Shader.fsh */,
+				BD08B11915B6239100D249B7 /* Shader.vsh */,
+				BD08B11B15B6239100D249B7 /* PGViewController.h */,
+				BD08B11C15B6239100D249B7 /* PGViewController.m */,
+				BD08B11E15B6239100D249B7 /* PGViewController.xib */,
+				BD08B10C15B6239100D249B7 /* Supporting Files */,
+			);
+			path = SimpleGames;
+			sourceTree = "<group>";
+		};
+		BD08B10C15B6239100D249B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B10D15B6239100D249B7 /* SimpleGames-Info.plist */,
+				BD08B10E15B6239100D249B7 /* InfoPlist.strings */,
+				BD08B11115B6239100D249B7 /* main.m */,
+				BD08B11315B6239100D249B7 /* SimpleGames-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD08B0FC15B6239100D249B7 /* SimpleGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD08B12315B6239100D249B7 /* Build configuration list for PBXNativeTarget "SimpleGames" */;
+			buildPhases = (
+				BD08B0F915B6239100D249B7 /* Sources */,
+				BD08B0FA15B6239100D249B7 /* Frameworks */,
+				BD08B0FB15B6239100D249B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGames;
+			productName = SimpleGames;
+			productReference = BD08B0FD15B6239100D249B7 /* SimpleGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD08B0F415B6239100D249B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BD08B0F715B6239100D249B7 /* Build configuration list for PBXProject "SimpleGames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD08B0F215B6239100D249B7;
+			productRefGroup = BD08B0FE15B6239100D249B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD08B0FC15B6239100D249B7 /* SimpleGames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD08B0FB15B6239100D249B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B11015B6239100D249B7 /* InfoPlist.strings in Resources */,
+				BD08B11815B6239100D249B7 /* Shader.fsh in Resources */,
+				BD08B11A15B6239100D249B7 /* Shader.vsh in Resources */,
+				BD08B12015B6239100D249B7 /* PGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD08B0F915B6239100D249B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B11215B6239100D249B7 /* main.m in Sources */,
+				BD08B11615B6239100D249B7 /* PGAppDelegate.m in Sources */,
+				BD08B11D15B6239100D249B7 /* PGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD08B10E15B6239100D249B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08B10F15B6239100D249B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD08B11E15B6239100D249B7 /* PGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08B11F15B6239100D249B7 /* en */,
+			);
+			name = PGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD08B12115B6239100D249B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD08B12215B6239100D249B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD08B12415B6239100D249B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGames/SimpleGames-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SimpleGames/SimpleGames-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD08B12515B6239100D249B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGames/SimpleGames-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SimpleGames/SimpleGames-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD08B0F715B6239100D249B7 /* Build configuration list for PBXProject "SimpleGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08B12115B6239100D249B7 /* Debug */,
+				BD08B12215B6239100D249B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD08B12315B6239100D249B7 /* Build configuration list for PBXNativeTarget "SimpleGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08B12415B6239100D249B7 /* Debug */,
+				BD08B12515B6239100D249B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD08B0F415B6239100D249B7 /* Project object */;
+}
